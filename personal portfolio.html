@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="fade-in-text">Gaurav Rahate - Web Developer</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="image-zoom">
+    </div>
+    
+    <header class="fade-in-text" id="header">
+        <h1 class="fade-in-text">Welcome to My Portfolio</h1>
+
+        <h1>Gaurav Rahate</h1>
+        <p>Web Developer</p>
+        <img src="profilepic.jpg.jpg" alt="Gaurav Rahate" class="profile-photo">
+        <nav>
+            <ul>
+                <li><a href="#" class="glowing-button" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" class="glowing-button" onclick="showSection('about')">About Me</a></li>
+                <li><a href="#" class="glowing-button" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" class="glowing-button" onclick="showSection('contact')">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="fade-in-text" class="content-section active">
+        <p class="summary" class="glowing-button" class="fade-in-text">Crafting Web Solutions with Precision and Passion</p>
+    </section>
+
+    <section id="about" class="fade-in-text" class="content-section" style="display: none;">
+        <h2>About Me</h2>
+        <p>Hello! I'm Gaurav Rahate, a web developer with a strong foundation in computer science, obtained from the MIT Academy of Engineering. My journey into web development began during my college years, where I developed a keen interest in creating user-centric and visually appealing web applications.</p>
+        <p>I hold a [Degree] in [Your Major] from the MIT Academy of Engineering. My coursework and projects provided me with a comprehensive understanding of both front-end and back-end development, allowing me to build complete web solutions.</p>
+        <p>I have worked on numerous web development projects, ranging from small personal websites to large-scale applications. My professional experience includes:</p>
+        <ul>
+            <li><strong>Front-End Development:</strong> Designing and implementing user interfaces using HTML, CSS, and JavaScript.</li>
+            <li><strong>React Projects:</strong> Developing complex web applications with React, managing state efficiently with Redux, and ensuring seamless user experiences.</li>
+            <li><strong>Back-End Development:</strong> Creating robust server-side applications using Node.js, Express, and integrating with various databases.</li>
+        </ul>
+        <p>My commitment to continuous learning and staying updated with the latest industry trends ensures that I bring the best practices and innovative solutions to every project I work on.</p>
+        <p>Feel free to explore my projects, and don't hesitate to get in touch if you'd like to collaborate or learn more about my work. Thank you for visiting!</p>
+    </section>
+
+    <section id="projects" class="content-section" style="display: none;">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <img src="images/project1.jpg" alt="Project 1 Screenshot">
+            <p>Description of project 1.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <img src="images/project2.jpg" alt="Project 2 Screenshot">
+            <p>Description of project 2.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section" style="display: none;">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gaurav Rahate. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/mr.proffesssor/?hl=en" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts3.js"></script>
+</body>
+</html>
